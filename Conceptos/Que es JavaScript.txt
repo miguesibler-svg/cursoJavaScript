@@ -1,0 +1,7 @@
+¿Qué puede hacer JavaScript?
+
+JavaScript es el lenguaje de programación de la web.
+
+Puede calcular, manipular y validar datos.
+
+Puede actualizar y cambiar tanto HTML como CSS.
