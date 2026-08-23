@@ -1,0 +1,223 @@
+<script src=""></script>
+
+
+// Comentario de una línea
+/* Comentario de varias líneas */
+
+
+var global;
+let local;
+
+
+let string = 'miguel';
+let int = 10;
+let double = 3.3;
+let boolean = true;
+let esNulo = null;
+let array = ['Miguel', 27];
+let objeto = { nombre: 'Miguel', edad: 27 };
+
+
+const constante = 3.141516;
+
+
+let arregloFrutas = ['Manzanas', 'Peras', 'Naranjas', 'Mango'];
+let arregloNumero = [1, 2, 3, 4, 5];
+arregloNumero[0] = 14;
+
+
+// Ver cantidad de elementos
+arregloNumero.length;
+
+// Saber el último elemento
+arregloNumero[arregloNumero.length - 1];
+
+// Convertir un array a texto
+arregloNumero.toString();
+
+// Unir dos arrays
+arregloNumero.concat(arregloFrutas);
+
+// Borrar el último elemento de un array
+arregloNumero.pop();
+
+// Agregar un elemento al final
+arregloNumero.push(15);
+
+// Eliminar el primer elemento
+arregloNumero.shift();
+
+// Agregar un elemento al inicio
+arregloNumero.unshift(15);
+
+// Eliminar elementos a partir de una posición
+arregloNumero.splice(2, 3);
+
+// Copiar una parte de un array
+arregloNumero.slice(0, 4);
+
+// Ordenar un array alfabéticamente
+arregloFrutas.sort();
+
+// Invertir el orden de un array
+arregloFrutas.reverse();
+
+
+let saltoLinea = 'hola como estas\nhola como estas\nholalala';
+
+
+'concatenación' + variable1;
+let saludo = nombre.concat(apellido);
+'concatenación', variable1;
+
+
+let string = '"miguel"';
+let string = "'miguel'";
+
+
+document.write('');
+document.write('<br>');
+document.write(arregloNumero[0]);
+
+
+alert('Mensaje');
+
+
+prompt('Mensaje a mostrar');
+
+
+parseInt(prompt('Introduce un número'));
+
+
+// Ver la cantidad de caracteres de un texto
+variableString.length;
+
+// Extraer una parte del texto
+variableString.slice(0, 4);
+
+// Extraer una parte del texto
+variableString.substring(0, 4);
+
+// Reemplazar una palabra por otra
+saludo.replace('Hola', 'Adiós');
+
+// Convertir texto a mayúsculas
+palabra.toUpperCase();
+
+// Convertir texto a minúsculas
+palabra.toLowerCase();
+
+// Unir dos textos
+palabra2.concat(palabra);
+
+// Eliminar espacios del inicio
+palabra3.trimStart();
+
+// Eliminar espacios del final
+palabra3.trimEnd();
+
+// Eliminar espacios del inicio y del final
+palabra3.trim();
+
+// Separar un texto y convertirlo en un array
+palabra.split('Java');
+
+
+a++;
+a--;
+
+
+a += 5;
+a -= 5;
+a *= 5;
+a /= 5;
+a **= 5;
+
+
++   // Suma
+-   // Resta
+*   // Multiplicación
+/   // División
+%   // Módulo o resto
+**  // Potencia
+
+
+>    // Mayor que
+<    // Menor que
+>=   // Mayor o igual que
+<=   // Menor o igual que
+!=   // Diferente de
+==   // Igual que
+
+
+// Raíz cuadrada
+Math.sqrt(25);
+
+// Redondear al entero más cercano
+Math.round(4.6);
+
+// Redondear hacia abajo
+Math.floor(4.9);
+
+// Redondear hacia arriba
+Math.ceil(4.1);
+
+// Calcular el seno
+Math.sin(0);
+
+// Calcular la exponencial
+Math.exp(2);
+
+// Calcular el logaritmo
+Math.log(10);
+
+// Obtener el valor absoluto
+Math.abs(-10);
+
+// Obtener el número mayor
+Math.max(10, 20, 5);
+
+// Obtener el número menor
+Math.min(10, 20, 5);
+
+// Generar un número aleatorio entre 0 y 1
+Math.random();
+
+// Generar un número aleatorio hasta 510
+Math.random() * 510;
+
+// Elevar un número a una potencia
+Math.pow(4, 2);
+
+
+&&
+||
+!=
+
+
+if(edad >= 18 && edad <= 30){
+
+}else if(edad >= 31 || edad < 50){
+
+}else{
+
+}
+
+
+switch(valor){
+    case 1:
+        document.write('1');
+        break;
+
+    case 2:
+        document.write('2');
+        break;
+
+    case 3:
+        document.write('3');
+        break;
+
+    default: 
+        document.write('no es numero valido');
+    break;
+}
